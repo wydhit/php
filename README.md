@@ -1,6 +1,6 @@
-#自己用的php规范
+# 自己用的php规范
 
-#php 
-##防辐射的
+# php 
+## 防辐射的
 
-#mysql
+# mysql
