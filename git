@@ -1,0 +1,4 @@
+版本管理 
+ master 主版本分支 同线上保持一致
+ dev 开发分支 一个阶段开发完成后合并到master 测试并上线
+ master 临时着急bug 从master新建一个bug+编号的分支 修复bug 后合并到dev分支
