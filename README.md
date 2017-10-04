@@ -27,9 +27,9 @@ data   数组  列表一般用list  字段一般用field
 
 
 一个controller 应该返回什么
-true 字符串和数字
-false null
-数组
-object
+true（转为空字符串） 字符串和数字   给传给response 
+false null 不返回错误的输出   errjson或者errmsg
+数组  json 输出
+object 1.response  输出，2/其他类的实例 __toString()
 
 解析模板是否清除以前的输出   清除不利于debug但能很好的保证系统健壮性
