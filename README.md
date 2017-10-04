@@ -23,3 +23,13 @@ status  1 业务处理成功 0 业务处理失败
 message 字符串  返回给v的显示信息 一般用于业务处理失败时
 data   数组  列表一般用list  字段一般用field
   
+
+
+
+一个controller 应该返回什么
+true 字符串和数字
+false null
+数组
+object
+
+解析模板是否清除以前的输出   清除不利于debug但能很好的保证系统健壮性
