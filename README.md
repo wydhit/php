@@ -32,4 +32,4 @@ false null 不返回错误的输出   errjson或者errmsg
 数组  json 输出
 object 1.response  输出，2/其他类的实例 __toString()
 
-解析模板是否清除以前的输出   清除不利于debug但能很好的保证系统健壮性
+解析模板是否清除以前的输出   清除不利于debug但能很好的保证系统健壮性 debug状态不清楚
